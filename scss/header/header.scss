@@ -3,6 +3,13 @@ Header
 ========================================================================== */
 // TODO: refactor menu style for when active menu displays.
 // TODO: refactor and add variables based on necessity
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: #ae3a05;
+}
+p {
+  font-family: "Roboto", sans-serif;
+}
 .menu-toggle {
   height: 100%;
   display: flex;
@@ -13,8 +20,10 @@ Header
 }
 
 .logo {
-  margin-left: 30px;
+  margin-left: 50px;
+  z-index: 111;
 }
+
 #sherweb-logo {
   height: 30px;
 }
@@ -41,30 +50,27 @@ Header
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: translateX(105%); /* move it horizontally off the page */
+  transition: transform 0.5s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
 
 .open-menu {
-  //   display: none;
+  transform: translateX(105%); /* move it horizontally off the page */
+  transition: transform 0.5s cubic-bezier(0.895, 0.03, 0.685, 0.22);
   ul {
     text-decoration: none;
     font-size: large;
-    color: black;
   }
 
   li {
     list-style-type: none;
-    color: black;
     padding: 10px;
   }
 
   a:hover {
     text-decoration: none;
-    color: black;
+    color: #dcaf7c;
   }
-}
-
-#menu-change {
-  display: none;
 }
 
 .bar1,
@@ -75,7 +81,6 @@ Header
   background-color: #333;
   margin: 6px 0;
   transition: 0.4s;
-  //   margin-left: -11px;
 }
 
 .change .bar1 {
@@ -90,4 +95,20 @@ Header
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
+}
+
+a {
+  color: white;
+  padding: 30px;
+  font-size: 15px;
+}
+.open-menu li {
+  background-color: #0056a0;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  margin-top: 30px;
+  border-radius: 9px;
+}
+.opened {
+  transform: translateX(0); /* move it back to original spot */
 }
