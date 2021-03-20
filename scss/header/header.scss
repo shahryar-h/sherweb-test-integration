@@ -1,6 +1,8 @@
 /* ==========================================================================
 Header
 ========================================================================== */
+// TODO: refactor menu style for when active menu displays.
+// TODO: refactor and add variables based on necessity
 .menu-toggle {
   height: 100%;
   display: flex;
@@ -13,6 +15,15 @@ Header
 .logo {
   margin-left: 30px;
 }
+#sherweb-logo {
+  height: 30px;
+}
+.description {
+  margin: 50px 0px;
+  p {
+    text-align: justify;
+  }
+}
 
 .menu {
   margin-right: 30px;
@@ -21,7 +32,6 @@ Header
 }
 
 .open-menu {
-  //   display: none;
   position: fixed;
   height: 100vh;
   width: 100%;

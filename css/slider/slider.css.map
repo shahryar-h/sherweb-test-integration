@@ -1,0 +1,1 @@
+{"version":3,"sources":["slider/slider.scss"],"names":[],"mappings":"AAAA,QACE,UAAW,CACX,WAAY,CAGd,UACE,YAAa,CACb,qBAAsB,CACtB,sBAAuB,CACvB,iBAAkB","file":"slider.css","sourcesContent":[".asdfds {\n  width: 100%;\n  height: 100%;\n}\n\ndiv.about {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  text-align: center;\n}\n"]}
