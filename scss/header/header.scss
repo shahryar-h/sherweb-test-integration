@@ -3,7 +3,6 @@ Header
 ========================================================================== */
 .menu-toggle {
   height: 100%;
-  cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,6 +16,45 @@ Header
 
 .menu {
   margin-right: 30px;
+  cursor: pointer;
+  z-index: 101;
+}
+
+.open-menu {
+  //   display: none;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-color: burlywood;
+  z-index: 100;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.open-menu {
+  //   display: none;
+  ul {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+  }
+
+  li {
+    list-style-type: none;
+    color: black;
+    padding: 10px;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+#menu-change {
+  display: none;
 }
 
 .bar1,
