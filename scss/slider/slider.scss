@@ -1,9 +1,15 @@
-.asdfds {
-  width: 100%;
+.slider-row {
+  height: 100%;
+}
+.slider {
   height: 100%;
 }
 
-div.about {
+.slider-slide {
+  width: 100%;
+  height: 100%;
+}
+.about {
   display: flex;
   flex-direction: column;
   justify-content: center;
