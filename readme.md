@@ -1,3 +1,11 @@
+# My process:
+### 1- added git to the project for version control. 
+There are many benefits to use a version control system and I decided to use git because:
+* I want to take advantage of these benefits 
+* I have the most experience with it
+* it is one of the best ones.
+
+
 # Sherweb - Test intégration
 ## À ajouter :
 ### Systeme de grid
