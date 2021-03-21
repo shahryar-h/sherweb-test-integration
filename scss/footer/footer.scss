@@ -1,15 +1,20 @@
+/* ==========================================================================
+footer
+========================================================================== */
+
 .footer-style {
   background-color: #00a3a9;
-
+  height: 100px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 83px;
-  margin-top: 40px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: -10px;
   font-size: 15px;
   box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
     inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
 }
 footer > p {
   color: whitesmoke;
+  margin-right: 30px;
+  margin-top: 10px;
 }
