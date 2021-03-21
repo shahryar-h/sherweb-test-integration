@@ -4,7 +4,14 @@
   padding: 0;
 }
 
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");
 @import "header/header.scss";
 @import "slider/slider.scss";
 @import "footer/footer.scss";

@@ -4,11 +4,12 @@ Header
 // TODO: refactor menu style for when active menu displays.
 // TODO: refactor and add variables based on necessity
 h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   color: #ae3a05;
 }
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
+  color: black;
 }
 .menu-toggle {
   height: 100%;
@@ -111,4 +112,10 @@ a {
 }
 .opened {
   transform: translateX(0); /* move it back to original spot */
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    margin-top: 500px;
+  }
 }
