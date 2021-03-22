@@ -1,28 +1,35 @@
 ### Grid system
 
-_What would be your CSS library of choice for the grid system? Implement it in the page_
+__What would be your CSS library of choice for the grid system? Implement it in the page__
+<br/>
 I chose bootstrap because I have time constraints and bootstrap provides a great solution for a grid system. Having more time I would consider using css grids which are efficient. Moreover there are other CSS libraries such as foundation and I choose Bootstrap because I am more comfortable with it.
-_If you had to align the elements of the page, what would be the alignment system of choice? Implement it in the page_
+
+__If you had to align the elements of the page, what would be the alignment system of choice? Implement it in the page__
+<br/>
 My choice is to use flexbox. Flexbox provides different options to align items. I used Flexbox in several parts of the project and the code is available on github
-_Setup the classes and html structure for this grid library_
-github
+
+__Setup the classes and html structure for this grid library__
 
 ### Slider system
 
-_What would be your favorite slider library?_
+__What would be your favorite slider library?__
+<br/>
 I use bootstrap’s slider(Carousel) because I already used bootstrap for the layout. This way no additional resource is required to add to the project.
 _Setup a slider system for the 3 slides_
 
 ### Colors, fonts, sizes
 
-_What font would you use and how would you call it in the page?_
+__What font would you use and how would you call it in the page?__
+<br/>
 I used Noto Sans TC and roboto from google fonts. I imported the font in style.scss file and
 Called in with “font-family” property.
-_Set up a base styling with colors, fonts, sizes in the page_
+__Set up a base styling with colors, fonts, sizes in the page__
 
 ### Scripts
 
-_Add a script to make a toggle for the mobile menu_
+__Add a script to make a toggle for the mobile menu__
+
+
 
 # My process:
 
@@ -37,6 +44,41 @@ There are many benefits to use a version control system and I decided to use git
 ### 2- Bug Found!
 
 the header.scss file was incorrectly named footer.scss
+
+
+### 3- Designed UI with Adobe Xd
+designed the initial user interface and layout based on the project requiremnts
+
+![initial design picture](https://github.com/shahryar-h/sherweb-test-integration/blob/main/imgs/initial-design.png?raw=true)
+
+I added some pictures instead of the place holder just because it looks better. it can easily change back to the plceholder by changing the source.
+I later added sherweb's logo to the page instead of logo's place holder
+
+
+### 4- developed the layout using bootstrap
+a simple layout. the slider and about section are adjasent only in large and bigger screen sizes
+
+### 5- added the slider
+used bootstrap's Carousel. I intentionaly removed the slider arrows as a design desition. the slider is custumaizable and different features can be added. 
+added a seperate folder for slider.scss 
+
+### 6- toggle menu
+added the toggle functionality to the menu 
+changed the menu item's design
+
+### 7- footer
+styled footer and moved the copyright text to top right side of the footer
+
+### 8- added some aditional styling like:
+- added fonts, text color and text size to different project's components
+- box shadows for different parts of the project
+- the menu's pop in/out animation
+- hamburgur menu implementation
+
+### 9- final refactoring and documentation
+- used meaningful variables to increase readability, scalability.
+- commented the code
+- Documented the project in readme.md file
 
 # Sherweb - Test intégration
 
