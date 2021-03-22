@@ -1,3 +1,24 @@
+# Installation guide:
+## Part 1
+### Option 1:
+use git.
+use below command to clone the repository to your local machine:
+```
+$ git clone git@github.com:shahryar-h/sherweb-test-integration.git
+```
+### Option 2:
+
+Click on the Code button above this page and click on Download ZIP as the drop-down menu pops up.
+unzip the project and run it using npm
+
+
+## Part 2
+start the project:
+```
+$ npm install
+$ gulp watch
+```
+
 ### Grid system
 
 __What would be your CSS library of choice for the grid system? Implement it in the page__
